@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Env files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Migrations (opcional, caso não queira versionar elas no início)
+# **Cuidado**: comente se quiser versionar os arquivos de migração
+# */migrations/
+# !*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+
+# Test output
+nosetests.xml
+coverage
