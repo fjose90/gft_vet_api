@@ -4,6 +4,6 @@ services:
         container_name: postgres-vet-dev
         # restart: always
         env_file:
-            - .env
+            - .env.dev
         ports:
             - 5432:5432
