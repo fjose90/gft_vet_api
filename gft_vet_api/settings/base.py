@@ -1,4 +1,4 @@
-from decouple import config
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -61,16 +61,7 @@ WSGI_APPLICATION = 'gft_vet_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": config('POSTGRES_DB'),
-        "USER": config('POSTGRES_USER'),
-        "PASSWORD": config('POSTGRES_PASSWORD'),
-        "HOST": config('POSTGRES_HOST'),
-        "PORT": config('POSTGRES_PORT'),
-    }
-}
+
 
 
 # Password validation
