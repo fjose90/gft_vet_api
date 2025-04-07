@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 
 def home(request):
-    return HttpResponse("<h1>Deploy funcionando! 🚀</h1>")
+    return JsonResponse({'msg': 'Bem vindo a API da Clínica Veterinária'})
